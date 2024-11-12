@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read -p "Digite o diretorio destino" dir
+
+echo "Introduzido pelo utilizador"
+echo $dir
+touch ficheiro_texto.txt
+
+mkdir -p backup
+
+mv *.txt backup/
